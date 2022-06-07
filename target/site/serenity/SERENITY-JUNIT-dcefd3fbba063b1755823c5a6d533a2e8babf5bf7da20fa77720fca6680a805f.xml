@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" skipped="0" tests="4" time="18.22" timestamp="2022-06-06T20:29:36.581+01:00[Europe/London]"><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="This will create a new employee"/><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="This will Read an employee by ID"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test002(DummyRestAPICURDTest.java:48)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="This will Update an employee by ID"/><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="This will Delete an employee by ID"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test004(DummyRestAPICURDTest.java:74)&#13;
+</system-err></testcase></testsuite>
